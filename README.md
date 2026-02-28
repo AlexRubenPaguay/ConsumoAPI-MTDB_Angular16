@@ -1,27 +1,64 @@
-# ConsumoAPIMTDBAngular16
+## 🎬 App MTDB Galería de Imágenes - Angular 16
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Aplicación web desarrollada con Angular 16 que consume la API de MTDB (Movies Database) para mostrar un catálogo de imágenes de películas, utilizando Bootstrap 5 para el diseño responsivo.
 
-## Development server
+✨ Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+    ✅ Consumo de API REST MTDB (The Movie Database)
 
-## Code scaffolding
+    ✅ Visualización de películas populares  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    ✅ Paginación de resultados
 
-## Build
+    ✅ Diseño responsivo con Bootstrap 5 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+    ✅ Interfaz moderna y amigable
 
-## Running unit tests
+🛠 Tecnologías Utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    Angular 16 - Framework frontend
 
-## Running end-to-end tests
+    Bootstrap 5 - Framework CSS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    TypeScript - Superset tipado de JavaScript
 
-## Further help
+    RxJS - Programación reactiva
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    MTDB API - API de películas
+
+📦 Requisitos Previos
+
+    Node.js (versión 16 o superior)
+
+    npm (versión 8 o superior)
+
+    Angular CLI 16
+
+    Visual Studio Code (recomendado)
+
+🔑 Configuración de la API
+
+    Obtener una API Key de MTDB
+
+        Regístrate en The Movie Database
+
+        Ve a la sección de API y solicita una clave
+
+        Espera la aprobación (generalmente inmediata)
+
+📸 Capturas de Pantalla
+
+<img width="1895" height="871" alt="imagen" src="https://github.com/user-attachments/assets/3f23b773-85a1-4912-ba33-726dfb1e3e06" />
+
+<img width="1880" height="876" alt="imagen" src="https://github.com/user-attachments/assets/b28af3ba-2620-43d9-b46e-315ec72ee57d" />
+
+🙏 Agradecimientos
+
+    The Movie Database por proveer la API
+
+    Angular Team por el increíble framework
+
+    Bootstrap por los componentes CSS
+
+⭐️ ¡No olvides darle una estrella al proyecto si te gustó! ⭐️
+
