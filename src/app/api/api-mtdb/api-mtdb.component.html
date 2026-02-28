@@ -1,0 +1,34 @@
+
+<div class="container">
+    <div class="row mt-2">
+        <div *ngFor="let p of peliculasPopulares; let i=index" class="col-md-2">
+            <div class="card mb-4 shadow-sm">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="button" class="btn btn-outline-danger w-100" value="Eliminar"
+                            (click)="getDeletePhoto(i)" />
+                    </div>
+                    <!--div class="col">
+                        <input type="button" class="btn btn-outline-info w-100" value="Editar" />
+                    </!--div-->
+                </div>
+                <!--img src="https://image.tmdb.org/t/p/w500/{{p.backdrop_path}}" class="card-img-top" alt="Imagen"-->
+                <img [src]="getFullPath_Image(p.poster_path)" class="card-img-top" alt="Imagen">
+                <div class="card-body">
+                    <p class="card-text fs-6">{{p.title}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<nav aria-label="...">
+    <ul class="pagination justify-content-center">
+        <li class="page-item " [class.disabled]="botonPaginacionPrevious">
+            <span class="page-link" (click)="getPrevious()">Previous</span>
+        </li>
+        <li class="page-item "><a class="page-link bg-dark text-white">{{pagina_actual}} / {{total_paginas}}</a></li>
+        <li class="page-item" [class.disabled]="botonPaginacionNext">
+            <a class="page-link" (click)="getNext()">Next</a>
+        </li>
+    </ul>
+</nav>
